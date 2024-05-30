@@ -30,10 +30,10 @@ You can use [retrieve_comments.sh](https://github.com/hadyyu/tiktok-api/blob/mai
 You can use [retrieve_users.sh](https://github.com/hadyyu/tiktok-api/blob/main/retrieve_users.sh) to retrieve users information, please replace your personal access token and your search parameters based on the API reference of [Query User Info](https://developers.tiktok.com/doc/research-api-specs-query-user-info/)
 
 ## API Version
-The TikTok research API Version is the newest from 05/16/2024, please frequently check the [Cangelog](https://developers.tiktok.com/doc/changelog/) to see if there are any updates.
+The TikTok research API Version is the newest from 05/16/2024, please frequently check the [Changelog](https://developers.tiktok.com/doc/changelog/) to see if there are any updates.
 
 ## License and citation
-This repository is licensed under [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans).
+This repository is licensed under MIT License.
 
 Please cite this repository as:
 @ TO DO
