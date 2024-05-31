@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Your access token
-access_token="your_access_token"
+access_token="${ACCESS_TOKEN}"
 
 # Specify the desired output directory path
 output_dir="/d/user_data"
