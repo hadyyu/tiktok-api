@@ -1,5 +1,5 @@
 curl -L -X POST 'https://open.tiktokapis.com/v2/research/video/query/?fields=id,video_description,create_time,share_count,view_count,like_count,comment_count,music_id,hashtag_names,effect_ids,playlist_id,voice_to_text,username' \
--H 'Authorization: Bearer your_access_token' \
+-H 'Authorization: Bearer ${ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
     "query": {
@@ -23,7 +23,7 @@ curl -L -X POST 'https://open.tiktokapis.com/v2/research/video/query/?fields=id,
 }' 
 
 curl -L -X POST "https://open.tiktokapis.com/v2/research/video/comment/list/?fields=id,like_count,create_time,text,video_id,parent_comment_id" \
--H 'Authorization: Bearer your_access_token' \
+-H 'Authorization: Bearer ${ACCESS_TOKEN}' \
 -H 'Content-Type: application/json' \
 -d '{
   "video_id": 7295842777789762849,
@@ -33,6 +33,6 @@ curl -L -X POST "https://open.tiktokapis.com/v2/research/video/comment/list/?fie
 
 
 curl -L 'https://open.tiktokapis.com/v2/research/user/info/?fields=display_name,bio_description,avatar_url,is_verified,follower_count,following_count,likes_count,video_count' \
--H 'Authorization: Bearer your_access_token' \
+-H 'Authorization: Bearer ${ACCESS_TOKEN}' \
 -H 'Content-Type:application/json' \
 -d '{"username": "joe123456"}'
