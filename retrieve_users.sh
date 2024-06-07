@@ -6,8 +6,8 @@ access_token="${ACCESS_TOKEN}"
 # Specify the desired output directory path
 output_dir="/d/user_data"
 
-# Array of usernames
-usernames=("a" "b" "c" "d")
+# Read usernames from usernames.txt into an array
+mapfile -t usernames < usernames.txt
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
